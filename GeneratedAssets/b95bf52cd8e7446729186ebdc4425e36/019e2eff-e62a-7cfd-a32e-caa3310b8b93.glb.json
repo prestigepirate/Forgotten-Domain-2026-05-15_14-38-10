@@ -1,0 +1,23 @@
+{
+    "asset": "b95bf52cd8e7446729186ebdc4425e36",
+    "fileName": "019e2eff-e62a-7cfd-a32e-caa3310b8b93.glb",
+    "prompt": "A menacing futuristic space station for the opponent, dark metal, glowing red lights, sci-fi style",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "30dfd2180f89c40669c90d5a6115cde6",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

@@ -1,0 +1,23 @@
+{
+    "asset": "46b75d1c45d854d55a8a97c60f95f4d4",
+    "fileName": "019e2eef-6e56-735f-a2d2-7a854627f368.glb",
+    "prompt": "A majestic, advanced space station tower, glowing blue energy, MTG style fantasy-tech architecture. Highly detailed. High-quality 3D boss model.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "ad6f30a70dbee43b2acf2183d7ef8a2e",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

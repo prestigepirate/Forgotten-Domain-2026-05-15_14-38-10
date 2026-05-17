@@ -1,0 +1,12 @@
+{
+    "asset": "c2f7c935aa9544c798d293ad7bca574b",
+    "fileName": "019e2ddd-9c12-7b89-a751-75825609afdc.pose.json",
+    "prompt": "A smooth, hovering walk. The creature glides across the ground with long, graceful strides. Its upper body remains relatively still, while its lower limbs move with rhythmic, alien elegance.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 537084460,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

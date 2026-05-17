@@ -1,0 +1,12 @@
+{
+    "asset": "bf521bce4e68a42eca4bf61f0cf1cc13",
+    "fileName": "019e2ddd-9b61-728b-b304-8c231d98fd35.pose.json",
+    "prompt": "A powerful, calculated attack. The creature thrusts its multiple limbs forward in a synchronized, high-speed strike. Energy pulses through its body during the impact. Scientific precision.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 168057331,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

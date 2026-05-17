@@ -1,0 +1,12 @@
+{
+    "asset": "18da5656e630f481abac11e26fde7511",
+    "fileName": "019e2ddd-9b31-7f63-8ca2-87e4d3048635.pose.json",
+    "prompt": "The creature pulls its limbs inward, crossing them over its core. It crouches slightly, creating a defensive posture that looks like a protective crystalline shell. Solid and immobile.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 1250079941,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

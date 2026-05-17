@@ -1,0 +1,12 @@
+{
+    "asset": "114615c0799244e88869f27f4d0ab7f0",
+    "fileName": "019e2ddd-bd61-7f7b-8689-f39e85d19000.pose.json",
+    "prompt": "The creature's core destabilizes. It collapses onto its knees, limbs twitching uncontrollably as its metallic parts spark and its organic form fades away into light. A dramatic, scientific dissolution.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 794090,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

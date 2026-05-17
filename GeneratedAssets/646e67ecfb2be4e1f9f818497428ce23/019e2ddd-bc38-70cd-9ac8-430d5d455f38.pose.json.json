@@ -1,0 +1,12 @@
+{
+    "asset": "646e67ecfb2be4e1f9f818497428ce23",
+    "fileName": "019e2ddd-bc38-70cd-9ac8-430d5d455f38.pose.json",
+    "prompt": "A grand summoning pose. The creature materializes from a beam of light, expanding its limbs outward as it fully forms. It raises its 'head' as if acknowledging the master. Regal and otherworldly.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 1149461386,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

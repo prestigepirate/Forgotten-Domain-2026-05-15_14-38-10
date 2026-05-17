@@ -1,0 +1,12 @@
+{
+    "asset": "479177227a5c44d37a0719ee86af0a65",
+    "fileName": "019e2ddd-9bed-7be4-952e-389dc5190c81.pose.json",
+    "prompt": "A tall, elegant alien creature standing in a subtle, breathing idle pose. The movements are fluid and slightly robotic, with its multiple limbs occasionally twitching or shifting with quantum energy. Scientific and powerful presence.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 1190069698,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

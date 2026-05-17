@@ -1,0 +1,23 @@
+{
+    "asset": "ba115e86f4aa54a1abed4e9f82ddb788",
+    "fileName": "019e2cff-ef06-79ee-86b7-3b07c43757a9.glb",
+    "prompt": "A medieval fantasy tower, matching the reference image, high quality 3D mesh, game ready",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "b2025ea7b853240d4ae111a4cefe82ae",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

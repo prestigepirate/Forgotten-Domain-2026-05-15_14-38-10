@@ -1,0 +1,23 @@
+{
+    "asset": "5e466299625464aa0ba482634e9f9225",
+    "fileName": "019e2eef-8281-7272-a435-11ab4541b84d.glb",
+    "prompt": "A brutalist, aggressive space station tower, glowing red energy, dark metal, spikes, MTG style fantasy-tech. Highly detailed. High-quality 3D boss model.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "30dfd2180f89c40669c90d5a6115cde6",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

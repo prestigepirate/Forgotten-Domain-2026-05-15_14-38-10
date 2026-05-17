@@ -1,0 +1,12 @@
+{
+    "asset": "ee991353de7fe45fbbc4486d8fe246b8",
+    "fileName": "019e2e7c-0415-7042-9c2d-acca16130ccc.pose.json",
+    "prompt": "A humanoid monster summoning animation, rising from the ground or appearing with a dramatic flourish.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 2132337623,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

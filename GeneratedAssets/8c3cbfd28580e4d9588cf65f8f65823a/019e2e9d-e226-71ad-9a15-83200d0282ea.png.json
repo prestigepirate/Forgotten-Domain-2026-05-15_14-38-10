@@ -1,0 +1,28 @@
+{
+    "asset": "8c3cbfd28580e4d9588cf65f8f65823a",
+    "fileName": "019e2e9d-e226-71ad-9a15-83200d0282ea.png",
+    "prompt": "A glowing energy impact burst, blue and white lightning, magic vfx, transparent background, realistic textures, game asset.",
+    "negativePrompt": "",
+    "model": "flux-2-dev",
+    "modelName": "Flux 2 (Dev)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

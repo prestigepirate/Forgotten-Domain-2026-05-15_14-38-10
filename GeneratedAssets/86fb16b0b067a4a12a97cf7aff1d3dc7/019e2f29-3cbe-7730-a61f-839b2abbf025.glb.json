@@ -1,0 +1,23 @@
+{
+    "asset": "86fb16b0b067a4a12a97cf7aff1d3dc7",
+    "fileName": "019e2f29-3cbe-7730-a61f-839b2abbf025.glb",
+    "prompt": "A massive tall sci-fi space station tower, satellite dish on top, guarded gates at base, dark metal with red lights, detailed mesh.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "a6f36837dbffc4247a3cc9c8035d3399",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

@@ -1,0 +1,12 @@
+{
+    "asset": "15ee9577c82364f7fb7eb3d03ec55314",
+    "fileName": "019e2e7c-071d-7185-b24e-603568c906fb.pose.json",
+    "prompt": "A humanoid monster death animation, collapsing to the ground.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 1171334413,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

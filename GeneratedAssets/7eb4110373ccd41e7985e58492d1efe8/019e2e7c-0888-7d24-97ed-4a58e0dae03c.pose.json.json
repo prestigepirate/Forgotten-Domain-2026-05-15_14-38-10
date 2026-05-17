@@ -1,0 +1,12 @@
+{
+    "asset": "7eb4110373ccd41e7985e58492d1efe8",
+    "fileName": "019e2e7c-0888-7d24-97ed-4a58e0dae03c.pose.json",
+    "prompt": "A humanoid monster attack animation, swinging its arms forward in a powerful strike.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 2089940716,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

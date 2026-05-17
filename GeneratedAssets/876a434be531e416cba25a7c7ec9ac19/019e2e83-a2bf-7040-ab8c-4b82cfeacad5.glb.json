@@ -1,0 +1,23 @@
+{
+    "asset": "876a434be531e416cba25a7c7ec9ac19",
+    "fileName": "019e2e83-a2bf-7040-ab8c-4b82cfeacad5.glb",
+    "prompt": "A 3D mesh of a monster named 'DiHydrogenate V-Sleax', a massive, heavy construct made of laboratory equipment, pipes, and large tanks filled with bubbling liquids. High quality textures, PBR materials. Neutral pose.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "33ff62f70a4374a5b95b94f32a88baa4",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

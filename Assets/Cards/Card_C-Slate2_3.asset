@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5c3ff643188456698aa22191bebe68, type: 3}
+  m_Name: Card_C-Slate2_3
+  m_EditorClassIdentifier: Assembly-CSharp::ForgottenDomain.CardData
+  cardName: C-Slate 2
+  cardType: 0
+  domain: 0
+  description: 
+  manaCost: 1
+  health: 1000
+  attack: 1100
+  defense: 800
+  moveRange: 1
+  level: 4
+  summonColor: {r: 0.2, g: 0.5, b: 1, a: 1}
+  modelPath: CSlate2
+  spellEffectType: 0
+  spellValue: 0
+  spellAtkBuff: 0
+  spellDefBuff: 0
+  spellDuration: 1
+  spellTargetsEnemy: 1
+  spellTargetsTower: 0
+  trapRadius: 3
+  trapBenefitsOwner: 0
+  trapLifespan: 0

@@ -1,0 +1,28 @@
+{
+    "asset": "a6f36837dbffc4247a3cc9c8035d3399",
+    "fileName": "019e2f27-70a8-7e95-a372-4084885b3bde.jpg",
+    "prompt": "A massive, ultra-tall futuristic sci-fi space station fortress, vertical tower design reaching high into the sky, large rotating radar dish on the very top, multiple tiered levels with glowing red lights, surrounded by a circular defensive wall with guarded high-tech gates and turrets. Dark gunmetal and obsidian textures, ominous and powerful, cinematic sci-fi game concept art, highly detailed, white background for mesh extraction.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

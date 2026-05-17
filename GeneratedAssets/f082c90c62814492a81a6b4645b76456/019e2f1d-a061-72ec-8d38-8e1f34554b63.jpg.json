@@ -1,0 +1,28 @@
+{
+    "asset": "f082c90c62814492a81a6b4645b76456",
+    "fileName": "019e2f1d-a061-72ec-8d38-8e1f34554b63.jpg",
+    "prompt": "A massive, tall futuristic sci-fi space station tower, cylindrical main body with multiple levels, a large rotating satellite dish on top, surrounded by a circular perimeter of guarded gates and laser turrets. Dark obsidian metal plating, glowing red energy conduits, cinematic lighting, dramatic shadows, highly detailed technical greebles, 4k resolution, white background for easy mesh extraction.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

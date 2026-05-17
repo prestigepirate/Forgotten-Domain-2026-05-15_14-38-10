@@ -1,0 +1,28 @@
+{
+    "asset": "6a3983d01377f4f268037cc0cc12dab4",
+    "fileName": "019e2f4e-8cf5-72d1-b8ab-4aec6d7e849c.jpg",
+    "prompt": "Deep space nebula with vibrant glowing stars, cosmic dust, dark purple and blue hues, high quality, cinematic lighting, distant galaxies.",
+    "negativePrompt": "",
+    "model": "skybox-cinematic",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

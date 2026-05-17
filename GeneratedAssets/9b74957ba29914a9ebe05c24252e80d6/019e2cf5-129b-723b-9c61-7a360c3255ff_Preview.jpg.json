@@ -1,0 +1,12 @@
+{
+    "asset": "9b74957ba29914a9ebe05c24252e80d6",
+    "fileName": "019e2cf5-129b-723b-9c61-7a360c3255ff_Preview.jpg",
+    "prompt": "seamless tileable sand and dirt ground texture, highly detailed, realistic, earthy tones, some small pebbles",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 525675854,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

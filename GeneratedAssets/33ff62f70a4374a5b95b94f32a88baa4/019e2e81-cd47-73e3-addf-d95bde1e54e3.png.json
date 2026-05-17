@@ -1,0 +1,28 @@
+{
+    "asset": "33ff62f70a4374a5b95b94f32a88baa4",
+    "fileName": "019e2e81-cd47-73e3-addf-d95bde1e54e3.png",
+    "prompt": "A high-detail 3D character concept for a monster named 'DiHydrogenate V-Sleax'. Magic: The Gathering style art, science-based theme. A massive, heavy construct made of laboratory equipment, pipes, and large tanks filled with bubbling neon blue and green liquids. It has heavy metallic limbs and a core made of a pressurized chemical reactor. Full body shot, neutral pose, front view, plain light grey background. 1024x1024.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

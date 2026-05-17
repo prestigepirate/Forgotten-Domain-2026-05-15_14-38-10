@@ -1,0 +1,28 @@
+{
+    "asset": "4f3c98d6f97c54caa8a0070a4e1259a0",
+    "fileName": "019e2dda-ac92-77be-94c1-f70a105e4aad.png",
+    "prompt": "A high-detail, realistic concept art in the style of Magic: The Gathering for a character named 'Sesquipedalian Avant'. A high-level scientific monster that is a hybrid of a sophisticated alien biology and advanced quantum machinery. Humanoid in silhouette but elongated, with multiple translucent limbs that seem to phase in and out of reality. Its torso is a complex core of glowing blue plasma and shifting obsidian gears. The head has no face, instead featuring a floating array of geometric lenses and floating holographic data streams. The background is a sterile, high-tech laboratory filled with warped space-time anomalies. Dramatic cinematic lighting, sharp details, intricate textures of metal, crystal, and organic fiber. Professional digital painting. Full body shot, front view, standing pose.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

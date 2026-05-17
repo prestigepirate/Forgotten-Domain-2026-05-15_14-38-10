@@ -1,0 +1,23 @@
+{
+    "asset": "00a92107e3b9f44e696ebad126a4ee5f",
+    "fileName": "019e2efe-4067-7ce4-9303-2a94a642dc0f.glb",
+    "prompt": "A futuristic space station for the player, detailed, high quality, sci-fi style",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "ad6f30a70dbee43b2acf2183d7ef8a2e",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

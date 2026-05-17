@@ -1,0 +1,12 @@
+{
+    "asset": "9a7c49c4b561449b9ab5be61669a4d61",
+    "fileName": "019e2e7c-0591-75c8-b5cd-916fcbf1f97a.pose.json",
+    "prompt": "A humanoid monster idle animation, breathing heavily, slightly shifting its weight from side to side.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 1293031057,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

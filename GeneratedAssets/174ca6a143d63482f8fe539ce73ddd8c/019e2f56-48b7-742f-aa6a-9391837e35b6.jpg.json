@@ -1,0 +1,28 @@
+{
+    "asset": "174ca6a143d63482f8fe539ce73ddd8c",
+    "fileName": "019e2f56-48b7-742f-aa6a-9391837e35b6.jpg",
+    "prompt": "Moonbase style solar panels laying down in sets, long and horizontal design, futuristic sci-fi tech, high quality, MTG style art, painterly digital painting, dramatic cinematic lighting, deep space shadows, highly detailed technical panels with glowing blue and white energy conduits, obsidian and gunmetal frame, white background for mesh extraction.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

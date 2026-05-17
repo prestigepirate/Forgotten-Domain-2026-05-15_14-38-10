@@ -1,0 +1,23 @@
+{
+    "asset": "148788175e453487a8068c7638da6530",
+    "fileName": "019e2e83-b233-7d23-a7dc-1a9b47c0f0cf.glb",
+    "prompt": "A 3D mesh of a monster named 'C-Slate 2', a humanoid construct made of dark grey slate-like armor plates with glowing circuitry. High quality textures, PBR materials. Neutral pose.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "23c9a67584269442ba916a81a170e3f2",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

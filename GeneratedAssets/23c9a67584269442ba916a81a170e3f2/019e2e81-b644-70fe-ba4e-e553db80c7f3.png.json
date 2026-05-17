@@ -1,0 +1,28 @@
+{
+    "asset": "23c9a67584269442ba916a81a170e3f2",
+    "fileName": "019e2e81-b644-70fe-ba4e-e553db80c7f3.png",
+    "prompt": "A high-detail 3D character concept for a monster named 'C-Slate 2'. Magic: The Gathering style art, science-based theme. A mid-sized humanoid construct or golem made of dark grey slate-like armor plates with glowing orange circuitry etched into them. It carries scientific measuring devices and has a head that looks like a camera lens. Full body shot, neutral pose, front view, plain light grey background. 1024x1024.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

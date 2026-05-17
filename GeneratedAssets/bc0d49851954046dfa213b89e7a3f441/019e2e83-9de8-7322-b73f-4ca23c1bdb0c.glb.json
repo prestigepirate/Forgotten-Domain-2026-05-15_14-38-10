@@ -1,0 +1,23 @@
+{
+    "asset": "bc0d49851954046dfa213b89e7a3f441",
+    "fileName": "019e2e83-9de8-7322-b73f-4ca23c1bdb0c.glb",
+    "prompt": "A 3D mesh of a monster named 'Coluorious', a fragile creature made of jagged glass and glowing chemical crystals. High quality textures, PBR materials. Neutral pose.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "33df2b77916914fba956a590c0e0a385",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

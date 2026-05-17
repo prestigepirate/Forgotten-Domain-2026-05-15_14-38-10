@@ -1,0 +1,23 @@
+{
+    "asset": "9aad66e64850d48dc892d6f7e520946e",
+    "fileName": "019e2f57-d6c1-766a-b9c7-bac79f484d76.glb",
+    "prompt": "Futuristic sci-fi solar panels laying down, long and horizontal, detailed technical panels, high quality mesh.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "174ca6a143d63482f8fe539ce73ddd8c",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}
