@@ -22,6 +22,7 @@ namespace ForgottenDomain.Editor
             var gameGO = new GameObject("Game");
             var gm = gameGO.AddComponent<GameManager>();
             var hm = gameGO.AddComponent<HandManager>();
+            var hud = gameGO.AddComponent<HUDManager>();
 
             var serializedHM = new SerializedObject(hm);
             var prop = serializedHM.FindProperty("deckCards");
