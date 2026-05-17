@@ -1,0 +1,23 @@
+{
+    "asset": "67fab806802aa441e9630e01516fa86d",
+    "fileName": "019e36ce-3488-7b50-9cd1-a15903637635.glb",
+    "prompt": "A 3D model of 'C-Slate2', an entropy monster, following the design in the reference image. High detail, optimized for games.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "c45fb73cad6d748249bae1b28e4036a9",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

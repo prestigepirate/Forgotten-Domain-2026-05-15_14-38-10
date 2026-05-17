@@ -1,0 +1,28 @@
+{
+    "asset": "93c2172a40e49412694a6bc6421728b9",
+    "fileName": "019e366d-751b-73bb-b16a-93917f6cfa6f.png",
+    "prompt": "Seamless tileable texture of faint, flowing quantum nebula gas. Dark purple and cyan wisps. Transparent-ish feel, designed for parallax layering. Minimalist and cinematic.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

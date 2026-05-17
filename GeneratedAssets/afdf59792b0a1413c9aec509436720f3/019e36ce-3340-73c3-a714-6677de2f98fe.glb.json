@@ -1,0 +1,23 @@
+{
+    "asset": "afdf59792b0a1413c9aec509436720f3",
+    "fileName": "019e36ce-3340-73c3-a714-6677de2f98fe.glb",
+    "prompt": "A 3D model of 'Sesquipedalian Avant', a high-level quantum warrior, following the design in the reference image. High detail, optimized for games.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "2fc43d73e89644f1c9590188ef533930",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

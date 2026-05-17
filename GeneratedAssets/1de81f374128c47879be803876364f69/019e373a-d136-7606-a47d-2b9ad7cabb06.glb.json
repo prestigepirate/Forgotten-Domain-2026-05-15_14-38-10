@@ -1,0 +1,23 @@
+{
+    "asset": "1de81f374128c47879be803876364f69",
+    "fileName": "019e373a-d136-7606-a47d-2b9ad7cabb06.glb",
+    "prompt": "A high-quality 3D sci-fi lunar communication tower, metallic surface, purple energy bands, brutalist design. Game-ready mesh.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "362716597015544aaa287d5613662706",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

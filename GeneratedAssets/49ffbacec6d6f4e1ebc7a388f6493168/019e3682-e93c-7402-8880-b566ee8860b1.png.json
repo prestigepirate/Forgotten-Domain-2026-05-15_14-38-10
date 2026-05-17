@@ -1,0 +1,28 @@
+{
+    "asset": "49ffbacec6d6f4e1ebc7a388f6493168",
+    "fileName": "019e3682-e93c-7402-8880-b566ee8860b1.png",
+    "prompt": "A glowing sci-fi energy orb, cyan and white, with electric sparks. High contrast, black background. Circular symmetry. Designed as a projectile sprite.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

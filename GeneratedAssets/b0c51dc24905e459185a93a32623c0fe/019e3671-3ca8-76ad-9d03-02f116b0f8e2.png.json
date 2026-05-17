@@ -1,0 +1,28 @@
+{
+    "asset": "b0c51dc24905e459185a93a32623c0fe",
+    "fileName": "019e3671-3ca8-76ad-9d03-02f116b0f8e2.png",
+    "prompt": "A professional and impactful quantum-tech game logo for \"FORGOTTEN DOMAIN\". The design combines a powerful icon of a stabilized quantum singularity—a sphere of swirling energy contained within sharp, geometric obsidian plates—with the text \"FORGOTTEN DOMAIN\" below. The typography is a high-tech, wide-kerning minimalist font with glowing cyan circuit-trace details. The feel is \"Quantum Science\" meets \"Ancient Mystery\". Colors: Deep obsidian, electric cyan, and subtle ultraviolet neon. Highly legible, cinematic, and memorable. Transparent background.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

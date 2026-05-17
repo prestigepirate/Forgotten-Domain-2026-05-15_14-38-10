@@ -1,0 +1,23 @@
+{
+    "asset": "82b71c9b6314b44228cee71da6b0f395",
+    "fileName": "019e3746-c5ad-7e1c-af99-fa7378545988.glb",
+    "prompt": "A 3D model of a ruined sci-fi wall with alien hieroglyphics, horizontal orientation, brutalist metallic design, quantum energy cracks. Game-ready mesh.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "7b9c21a0a09ca4ef3907f9f32b5dd4b8",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

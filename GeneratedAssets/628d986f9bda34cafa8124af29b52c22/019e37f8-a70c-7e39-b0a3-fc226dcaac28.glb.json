@@ -1,0 +1,23 @@
+{
+    "asset": "628d986f9bda34cafa8124af29b52c22",
+    "fileName": "019e37f8-a70c-7e39-b0a3-fc226dcaac28.glb",
+    "prompt": "Modular sci-fi metal industrial fence segment, medium height, elongated 1x3 proportions, matching the provided concept art. Dark grey metal, blue emissive details. High quality mesh. High detail, PBR materials.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "14e3430166c2544a891c79ab1ba3a19e",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

@@ -1,0 +1,23 @@
+{
+    "asset": "bfa6021484aae4c288fa4988a26fa295",
+    "fileName": "019e373a-b065-7bec-8ee9-da2f82c85972.glb",
+    "prompt": "A high-quality 3D ruined, destroyed sci-fi moon base structure, debris, metallic surface, purple energy details, brutalist design. Game-ready mesh.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "3323c64f6012a452a8b84e0b7a8b304f",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

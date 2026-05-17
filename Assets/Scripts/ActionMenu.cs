@@ -29,6 +29,7 @@ namespace ForgottenDomain
             var scaler = go.AddComponent<CanvasScaler>();
             scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
             scaler.referenceResolution = new Vector2(1920, 1080);
+            scaler.matchWidthOrHeight = 1f;
             go.AddComponent<GraphicRaycaster>();
 
             _panel = new GameObject("Panel");

@@ -1,0 +1,28 @@
+{
+    "asset": "30fb89984decb41ae9b4cfc6ed1b230d",
+    "fileName": "019e3665-84c6-7ce0-9226-0d963e3a7f36.png",
+    "prompt": "A premium cinematic sci-fi background for a game menu. It features abstract quantum energy particles, faint glowing neural networks, and deep space nebulas in shades of dark blue, cyan, and deep purple. The composition is minimalist with a lot of copy space in the center. High detail, 4k resolution, futuristic tech aesthetic.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

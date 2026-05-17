@@ -16,19 +16,19 @@ namespace ForgottenDomain
             
             _text.text = text;
             _text.color = color;
-            _text.fontSize = 6;
+            _text.fontSize = 8; // Increased from 6
             _text.alignment = TextAlignmentOptions.Center;
-            _text.outlineWidth = 0.2f;
+            _text.outlineWidth = 0.25f;
             _text.outlineColor = Color.black;
 
-            _velocity = new Vector3(Random.Range(-0.5f, 0.5f), 2f, Random.Range(-0.5f, 0.5f));
+            _velocity = new Vector3(Random.Range(-0.8f, 0.8f), 3f, Random.Range(-0.8f, 0.8f));
             Destroy(gameObject, _lifetime);
-        }
+            }
 
-        private void Update()
-        {
+            private void Update()
+            {
             transform.position += _velocity * Time.deltaTime;
-            _velocity.y -= 2f * Time.deltaTime; // Gravity-ish
+            _velocity.y -= 3f * Time.deltaTime; // Slightly faster fall for impact
             
             // Fade out
             var c = _text.color;
@@ -38,14 +38,14 @@ namespace ForgottenDomain
             // Face camera
             if (Camera.main != null)
                 transform.rotation = Quaternion.LookRotation(transform.position - Camera.main.transform.position);
-        }
+            }
 
-        public static void Create(Vector3 position, string text, Color color)
-        {
+            public static void Create(Vector3 position, string text, Color color)
+            {
             var go = new GameObject("DamageText");
-            go.transform.position = position + Vector3.up * 2f;
+            go.transform.position = position + Vector3.up * 3.5f; // Raised from 2.0 to clear larger models
             var dt = go.AddComponent<DamageText>();
             dt.Setup(text, color);
-        }
+            }
     }
 }

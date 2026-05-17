@@ -19,8 +19,9 @@ namespace ForgottenDomain
         public Monster OccupyingMonster { get; set; }
         public CardData SetTrap { get; set; }
         public Team TrapOwner { get; set; }
+        public bool isBlocked;
         public bool IsOccupied => OccupyingMonster != null;
-        public bool IsWalkable => !IsOccupied;
+        public bool IsWalkable => !IsOccupied && !isBlocked;
 
         private void Awake()
         {

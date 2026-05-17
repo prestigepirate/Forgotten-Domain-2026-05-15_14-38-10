@@ -24,7 +24,7 @@ namespace ForgottenDomain
             _textMesh.font = Resources.Load<TMP_FontAsset>("Fonts & Materials/LiberationSans SDF");
             if (_textMesh.font == null) Debug.LogWarning("[MonsterIndicator] Could not find default TMP Font Asset!");
             
-            _textMesh.fontSize = 4;
+            _textMesh.fontSize = 5.5f; // Increased for better visibility
             _textMesh.alignment = TextAlignmentOptions.Center;
             
             if (_owner.OwnerTeam == Team.Opponent)

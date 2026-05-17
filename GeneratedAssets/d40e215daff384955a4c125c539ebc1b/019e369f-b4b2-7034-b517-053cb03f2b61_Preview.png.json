@@ -1,0 +1,12 @@
+{
+    "asset": "d40e215daff384955a4c125c539ebc1b",
+    "fileName": "019e369f-b4b2-7034-b517-053cb03f2b61_Preview.png",
+    "prompt": "Brutalist concrete slab texture, ruined and weathered with deep cracks, chips, and water stains. Greyish white color palette. Industrial, raw, monolithic feel. Top-down perspective, seamless tileable.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 2131812237,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

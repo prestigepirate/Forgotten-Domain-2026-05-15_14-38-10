@@ -1,0 +1,28 @@
+{
+    "asset": "94a32e69572f24b6e8febe15bbe8b82b",
+    "fileName": "019e376e-c566-701d-8e88-6d9c42f0b33b.png",
+    "prompt": "High detail concept art for a damaged space pillar monument. Sci-fi tech, broken parts, glowing cyan energy lines, dark metallic and bronze textures. Epic fantasy style. Centered on a grey background. Front view.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

@@ -1,0 +1,23 @@
+{
+    "asset": "8d1ce6ec37bef40d6bc8b3052b87dbe5",
+    "fileName": "019e3733-0e70-7312-987b-3f4a81d95c92.glb",
+    "prompt": "A high-quality 3D sci-fi moon base structure, sleek metallic surface, glowing holographic purple energy details, brutalist sci-fi design, matching the provided concept image. Game-ready mesh.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "3a71148e2b01848e2ab5dd05e5d84f2b",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

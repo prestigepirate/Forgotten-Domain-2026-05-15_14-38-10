@@ -1,0 +1,23 @@
+{
+    "asset": "07cead329ad774d1da99fea712478cc5",
+    "fileName": "019e373a-e974-72cd-9807-d07d66fe6a17.glb",
+    "prompt": "A high-quality 3D sci-fi lunar satellite dish, metallic surface, purple energy arrays, brutalist design. Game-ready mesh.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "1adc5397ce23d49cb85f40ddbc3069e8",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

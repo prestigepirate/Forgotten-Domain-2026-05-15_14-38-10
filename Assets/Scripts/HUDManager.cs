@@ -44,6 +44,7 @@ namespace ForgottenDomain
             var scaler = go.AddComponent<CanvasScaler>();
             scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
             scaler.referenceResolution = new Vector2(1920, 1080);
+            scaler.matchWidthOrHeight = 1f;
             go.AddComponent<GraphicRaycaster>();
 
             // ── Scanline overlay (full screen holographic noise) ──
@@ -235,7 +236,12 @@ namespace ForgottenDomain
             rt.anchorMin = anchor; rt.anchorMax = anchor; rt.pivot = anchor;
             rt.anchoredPosition = pos;
             rt.sizeDelta = new Vector2(80, 4);
-            if (flipX) rt.localScale = new Vector3(-1, 1, 1);
+
+            // Apply scale flips: flipX for right corners, flipY for top corners
+            Vector3 scale = Vector3.one;
+            if (flipX) scale.x = -1;
+            if (anchor.y > 0.5f) scale.y = -1; // Flip vertically for top corners
+            rt.localScale = scale;
 
             var img = go.AddComponent<Image>();
             img.color = color;

@@ -1,0 +1,38 @@
+{
+    "asset": "bba188077db6b4ac7b69a2b5d3aebad1",
+    "fileName": "019e36cc-1687-70a9-8c90-9699bc7ddef1.jpg",
+    "prompt": "A sci-fi nanite creature monster, 'Coluorious', small but agile, glowing purple core, mechanical limbs, matching a dark space nebula aesthetic, full body head to toe, side view, game asset style.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "30fb89984decb41ae9b4cfc6ed1b230d",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

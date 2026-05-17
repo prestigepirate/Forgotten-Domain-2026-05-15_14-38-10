@@ -1,0 +1,28 @@
+{
+    "asset": "93f46bdcb2cca434087a5cfb8ca97f80",
+    "fileName": "019e3663-4fdd-7ace-ba84-7145ab313dd4.png",
+    "prompt": "A high-tech sci-fi logo for a game called \"FORGOTTEN DOMAIN\". The logo features sleek, geometric typography with integrated circuit patterns and glowing cyan energy lines. The style is premium, cinematic, and minimalist, with a slight holographic glitch effect. The text \"FORGOTTEN DOMAIN\" is central and highly legible. Transparent background.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

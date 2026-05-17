@@ -1,0 +1,12 @@
+{
+    "asset": "53d396edfbefe4fcbb50367034508982",
+    "fileName": "019e36a2-3a56-7e7c-af13-5c836b400d93_Preview.png",
+    "prompt": "Darker brutalist concrete slab texture, ruined and weathered with soot, deep cracks, and heavy industrial grime. Deep grey and charcoal color palette. Industrial, monolithic feel. Top-down perspective, seamless tileable. Matches the style of a white brutalist concrete but much darker.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1839158392,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

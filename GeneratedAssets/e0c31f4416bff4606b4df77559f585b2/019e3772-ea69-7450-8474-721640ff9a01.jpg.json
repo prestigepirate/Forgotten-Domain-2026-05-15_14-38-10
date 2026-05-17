@@ -1,0 +1,28 @@
+{
+    "asset": "e0c31f4416bff4606b4df77559f585b2",
+    "fileName": "019e3772-ea69-7450-8474-721640ff9a01.jpg",
+    "prompt": "A massive, highly detailed sci-fi space pillar monument, heavily damaged and broken in half. Exposed complex cybernetic internal technology with glowing cyan and purple energy circuits. Dark charcoal and aged metallic bronze textures. The style is epic fantasy like Magic: The Gathering art. Cinematic lighting, sharp details. Front view, isolated on a neutral gray background.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

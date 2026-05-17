@@ -1,0 +1,23 @@
+{
+    "asset": "5a2d3510cdb1f4b8f89718373f8dedce",
+    "fileName": "019e36ce-2e56-71e5-b2be-b5371bc46208.glb",
+    "prompt": "A 3D model of 'Coluorious', a small nanite creature, following the design in the reference image. High detail, optimized for games.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "bba188077db6b4ac7b69a2b5d3aebad1",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

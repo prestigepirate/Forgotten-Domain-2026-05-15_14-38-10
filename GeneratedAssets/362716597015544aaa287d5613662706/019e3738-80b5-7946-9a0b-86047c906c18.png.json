@@ -1,0 +1,38 @@
+{
+    "asset": "362716597015544aaa287d5613662706",
+    "fileName": "019e3738-80b5-7946-9a0b-86047c906c18.png",
+    "prompt": "A high-detail sci-fi lunar communication tower, brutalist architectural structure, quantum domain aesthetic, sleek metallic titanium surface, glowing holographic purple energy bands, matching the style of the provided reference image. Isolated on black background.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "3a71148e2b01848e2ab5dd05e5d84f2b",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

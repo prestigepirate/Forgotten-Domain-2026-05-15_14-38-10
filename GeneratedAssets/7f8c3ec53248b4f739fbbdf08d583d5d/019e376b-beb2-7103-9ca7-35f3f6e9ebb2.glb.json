@@ -1,0 +1,23 @@
+{
+    "asset": "7f8c3ec53248b4f739fbbdf08d583d5d",
+    "fileName": "019e376b-beb2-7103-9ca7-35f3f6e9ebb2.glb",
+    "prompt": "Grand monument statue of a cybernetic humanoid demon female. Imposing posture, biomechanical details, dark metallic textures, glowing cyan accents. Centerpiece scale. Symmetric design.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "baa2215afe72142f185aa59de0397260",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

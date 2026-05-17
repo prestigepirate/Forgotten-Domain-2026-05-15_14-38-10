@@ -1,0 +1,38 @@
+{
+    "asset": "58ab0b04d482a4cb9bf2c61604d0a4f8",
+    "fileName": "019e36dc-a873-7a7b-aae8-f55445e2f147.jpg",
+    "prompt": "A high-tech sci-fi brutalist card frame, 'CardFrame_WithSlot', featuring a large central slot for character artwork, glowing cyan and purple circuitry accents, dark metallic texture, symmetrical and clean lines, matching the provided reference style, game UI asset.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "6b5d68055a4d8435ea97262b2160e627",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

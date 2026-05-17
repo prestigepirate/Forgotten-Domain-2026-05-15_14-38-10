@@ -24,6 +24,7 @@ MonoBehaviour:
   level: 2
   summonColor: {r: 0.2, g: 0.5, b: 1, a: 1}
   modelPath: Coluorious
+  portraitPath: Assets/Sprites/Concepts/Coluorious_Concept.png
   spellEffectType: 0
   spellValue: 0
   spellAtkBuff: 0

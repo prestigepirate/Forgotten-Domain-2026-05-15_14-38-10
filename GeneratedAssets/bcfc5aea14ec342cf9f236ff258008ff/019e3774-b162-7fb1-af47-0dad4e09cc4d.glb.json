@@ -1,0 +1,23 @@
+{
+    "asset": "bcfc5aea14ec342cf9f236ff258008ff",
+    "fileName": "019e3774-b162-7fb1-af47-0dad4e09cc4d.glb",
+    "prompt": "Massive, highly detailed damaged space pillar monument. Broken, exposed tech, glowing circuits. Dark metallic. High detail 3D model.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "e0c31f4416bff4606b4df77559f585b2",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

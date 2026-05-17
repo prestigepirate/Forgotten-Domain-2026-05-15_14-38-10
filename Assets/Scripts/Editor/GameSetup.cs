@@ -49,8 +49,7 @@ namespace ForgottenDomain.Editor
             if (cam != null && cam.GetComponent<CameraController>() == null)
             {
                 cam.gameObject.AddComponent<CameraController>();
-                cam.clearFlags = CameraClearFlags.SolidColor;
-                cam.backgroundColor = new Color(0.04f, 0.04f, 0.06f);
+                cam.clearFlags = CameraClearFlags.Skybox;
             }
 
             EditorSceneManager.MarkSceneDirty(gameGO.scene);

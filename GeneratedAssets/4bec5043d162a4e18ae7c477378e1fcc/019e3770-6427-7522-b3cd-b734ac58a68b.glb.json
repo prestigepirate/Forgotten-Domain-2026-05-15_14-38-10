@@ -1,0 +1,23 @@
+{
+    "asset": "4bec5043d162a4e18ae7c477378e1fcc",
+    "fileName": "019e3770-6427-7522-b3cd-b734ac58a68b.glb",
+    "prompt": "Damaged sci-fi space pillar monument. Cracked, broken, exposed technology, glowing cyan circuits. High quality.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "94a32e69572f24b6e8febe15bbe8b82b",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

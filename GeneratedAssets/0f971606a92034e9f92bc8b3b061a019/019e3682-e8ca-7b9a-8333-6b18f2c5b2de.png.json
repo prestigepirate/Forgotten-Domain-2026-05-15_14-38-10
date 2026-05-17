@@ -1,0 +1,28 @@
+{
+    "asset": "0f971606a92034e9f92bc8b3b061a019",
+    "fileName": "019e3682-e8ca-7b9a-8333-6b18f2c5b2de.png",
+    "prompt": "An explosive sci-fi energy burst, radial rays, cyan and purple. High contrast, black background. Designed as an impact VFX sprite.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

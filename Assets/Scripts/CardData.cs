@@ -78,6 +78,10 @@ namespace ForgottenDomain
         [Tooltip("Path under Resources/ to a GLB model. Leave empty to use default prefab.")]
         public string modelPath = "";
 
+        [Header("Portrait")]
+        [Tooltip("Path to a sprite portrait.")]
+        public string portraitPath = "";
+
         // ──────────────────────────────────────────────────────
         //  SPELL FIELDS (Magic / Trap cards only)
         // ──────────────────────────────────────────────────────

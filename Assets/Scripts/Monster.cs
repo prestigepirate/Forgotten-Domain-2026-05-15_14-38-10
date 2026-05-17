@@ -59,7 +59,34 @@ namespace ForgottenDomain
                 _animator.Play("Summon", 0, 0f);
                 Debug.Log($"[Monster] Triggered Summon animation for {displayName}");
             }
-        }
+            else
+            {
+                // Procedural "Summon Pop" for fallback visuals to give a premium polished feel
+                StartCoroutine(SummonPopRoutine());
+            }
+            }
+
+            private System.Collections.IEnumerator SummonPopRoutine()
+            {
+            Transform body = transform.Find("Body");
+            if (body == null) yield break;
+
+            Vector3 targetScale = body.localScale;
+            body.localScale = Vector3.zero;
+            
+            float elapsed = 0f;
+            float duration = 0.5f;
+            while (elapsed < duration)
+            {
+                elapsed += Time.deltaTime;
+                float t = elapsed / duration;
+                // Elastic out easing for a "premium" bouncy feel
+                float easedT = 1f - Mathf.Pow(1f - t, 3f); 
+                body.localScale = targetScale * easedT;
+                yield return null;
+            }
+            body.localScale = targetScale;
+            }
 
         public void ApplyEquip(int atk, int def)
         {
@@ -110,22 +137,22 @@ namespace ForgottenDomain
         {
             GameObject indicatorGo = new GameObject("Indicator");
             indicatorGo.transform.SetParent(transform);
-            indicatorGo.transform.localPosition = new Vector3(0, 3.5f, 0); // Above head
+            indicatorGo.transform.localPosition = new Vector3(0, 4.8f, 0); // Raised for larger models
             var indicator = indicatorGo.AddComponent<MonsterIndicator>();
             indicator.Initialize(this);
-        }
+            }
 
-        public void ApplySummonMode(SummonMode mode)
-        {
+            public void ApplySummonMode(SummonMode mode)
+            {
             CurrentMode = mode;
             if (mode == SummonMode.ATK) attack += Mathf.RoundToInt(attack * 0.2f);
             else defense += Mathf.RoundToInt(defense * 0.2f);
 
             if (_animator != null) _animator.SetBool("isDefending", mode == SummonMode.DEF);
-        }
+            }
 
-        private void BuildVisual()
-        {
+            private void BuildVisual()
+            {
             if (SourceCard != null && !string.IsNullOrEmpty(SourceCard.modelPath))
             {
                 var prefab = Resources.Load<GameObject>($"Models/{SourceCard.modelPath}");
@@ -144,10 +171,10 @@ namespace ForgottenDomain
                         for (int i = 1; i < renderers.Length; i++) worldBounds.Encapsulate(renderers[i].bounds);
                         float currentHeight = worldBounds.size.y;
 
-                        // 2. Scale model to target height (roughly 1.5 units)
+                        // 2. Scale model to target height (increased for "premium" impactful feel)
                         if (currentHeight > 0.001f)
                         {
-                            float scale = 1.5f / currentHeight;
+                            float scale = 2.4f / currentHeight; // Increased from 1.5f to 2.4f
                             model.transform.localScale *= scale;
                         }
 
@@ -175,14 +202,15 @@ namespace ForgottenDomain
             var body = GameObject.CreatePrimitive(PrimitiveType.Cube);
             body.name = "Body";
             body.transform.SetParent(transform);
-            body.transform.localPosition = new Vector3(0, 0.8f, 0);
-            body.transform.localScale = new Vector3(0.8f, 1.6f, 0.8f);
+            body.transform.localPosition = new Vector3(0, 1.2f, 0);
+            body.transform.localScale = new Vector3(1.2f, 2.4f, 1.2f); // Scaled up fallback
             var mat = new Material(Shader.Find("Universal Render Pipeline/Lit"));
-            mat.SetColor("_BaseColor", OwnerTeam == Team.Player ? new Color(0.3f, 0.6f, 1f) : new Color(1f, 0.3f, 0.2f));
-            mat.SetFloat("_Smoothness", 0.1f);
+            mat.SetColor("_BaseColor", OwnerTeam == Team.Player ? new Color(0.2f, 0.5f, 1f) : new Color(1f, 0.2f, 0.3f));
+            mat.SetFloat("_Smoothness", 0.7f); // Higher smoothness for premium feel
+            mat.SetFloat("_Metallic", 0.4f);  // Metallic touch
             body.GetComponent<MeshRenderer>().sharedMaterial = mat;
             Destroy(body.GetComponent<Collider>());
-        }
+            }
 
         private void Update()
         {
@@ -208,7 +236,7 @@ namespace ForgottenDomain
 
         public bool MoveTo(BattleTile dest)
         {
-            if (!IsAlive || HasMovedThisTurn || dest == null || dest.IsOccupied || RootTurns > 0) return false;
+            if (!IsAlive || HasMovedThisTurn || dest == null || !dest.IsWalkable || RootTurns > 0) return false;
             
             Vector2Int startPos = CurrentTile != null ? CurrentTile.coordinates : Vector2Int.zero;
             if (CurrentTile != null) CurrentTile.OccupyingMonster = null;

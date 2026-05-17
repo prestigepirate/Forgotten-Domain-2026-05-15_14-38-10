@@ -34,9 +34,11 @@ namespace ForgottenDomain
 
         private IEnumerator AITurnRoutine(Team team)
         {
+            GameLogManager.Instance?.Log($"--- AI Turn: {team} ---");
             yield return new WaitForSeconds(actionDelay);
 
             // 1. Draw card
+            GameLogManager.Instance?.Log($"{team} is drawing a card...");
             if (team == Team.Player && _handManager != null) _handManager.DrawCard();
             else DrawCard();
             
@@ -49,21 +51,26 @@ namespace ForgottenDomain
             Tower enemyTower = (team == Team.Player) ? GM.OpponentTower : GM.PlayerTower;
 
             // 3. Play Magic Cards strategically
+            GameLogManager.Instance?.Log($"{team} evaluating magic cards...");
             TryPlayMagicSmart(team, myMonsters, enemyMonsters);
             yield return new WaitForSeconds(actionDelay);
 
             // 4. Set Traps based on enemy positions
+            GameLogManager.Instance?.Log($"{team} evaluating traps...");
             TrySetTrapsSmart(team, enemyMonsters);
             yield return new WaitForSeconds(actionDelay);
 
             // 5. Strategic Summoning
+            GameLogManager.Instance?.Log($"{team} evaluating summons...");
             TrySummonMonsterSmart(team, myMonsters, enemyMonsters, myTower);
             yield return new WaitForSeconds(actionDelay);
 
             // 6. Tactical Movement and Combat
+            GameLogManager.Instance?.Log($"{team} evaluating movement and combat...");
             yield return StartCoroutine(MoveAndAttackTactical(team, myTower, enemyTower));
 
             // 7. End turn
+            GameLogManager.Instance?.Log($"{team} turn complete.");
             if (team == Team.Opponent) GM.EndEnemyTurn();
             else GM.EndTurn();
         }
@@ -170,7 +177,11 @@ namespace ForgottenDomain
                         if (t != null && !t.IsOccupied) validTiles.Add(t);
                     }
 
-                if (validTiles.Count == 0) break;
+                if (validTiles.Count == 0)
+                {
+                    GameLogManager.Instance?.Log($"{team} cannot summon: No valid tiles in rows {startZ}-{endZ}.");
+                    break;
+                }
 
                 BattleTile targetTile = null;
                 if (needDefense && threat != null)
@@ -180,8 +191,11 @@ namespace ForgottenDomain
                 
                 if (targetTile == null) targetTile = validTiles[Random.Range(0, validTiles.Count)];
 
+                validTiles.Remove(targetTile); // Don't try to summon on the same tile twice
+
+                GameLogManager.Instance?.Log($"{team} summoning {monsterCard.cardName} at {targetTile.coordinates}...");
                 ExecutePlayCard(team, monsterCard, targetTile, true);
-            }
+                }
         }
 
         private IEnumerator MoveAndAttackTactical(Team team, Tower myTower, Tower enemyTower)

@@ -1,0 +1,23 @@
+{
+    "asset": "3ffa97718d66b45969328b11ab576bb3",
+    "fileName": "019e37a2-f89a-7a55-aeb7-e9f87a9aa88d.glb",
+    "prompt": "Massive, high-detail vertical rustic iron space pillar monument. Single structural beam, damaged and broken, with exposed cybernetic internals and glowing cyan circuits. Weathered metallic textures. Vertical orientation. High quality.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "c3d8f25df5d134947822e2138864dd1e",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

@@ -130,7 +130,9 @@ public TurnState CurrentTurn { get; private set; } = TurnState.PlayerTurn;
         private Tower CreateTower(Team team, int x, int z)
         {
             var go = new GameObject($"Tower_{team}");
-            go.transform.position = GridToWorld(x, z) + Vector3.up * 0.1f;
+            var tile = GetTile(x, z);
+            Vector3 worldPos = (tile != null) ? tile.transform.position : GridToWorld(x, z);
+            go.transform.position = worldPos + Vector3.up * 0.1f;
             go.transform.SetParent(transform);
             var t = go.AddComponent<Tower>();
             t.Initialize(team, go.transform.position, x, z);
@@ -140,8 +142,8 @@ public TurnState CurrentTurn { get; private set; } = TurnState.PlayerTurn;
         private void SetupCamera()
         {
             var cam = Camera.main; if (cam == null) return;
-            cam.tag = "MainCamera"; cam.clearFlags = CameraClearFlags.SolidColor;
-            cam.backgroundColor = new Color(0.04f, 0.04f, 0.06f); cam.fieldOfView = 55f;
+            cam.tag = "MainCamera"; cam.clearFlags = CameraClearFlags.Skybox;
+            cam.fieldOfView = 55f;
             if (cam.GetComponent<CameraController>() == null) cam.gameObject.AddComponent<CameraController>();
         }
 
@@ -167,8 +169,22 @@ public TurnState CurrentTurn { get; private set; } = TurnState.PlayerTurn;
             {
                 var card = _handManager.SelectedCard;
                 if (card.IsMonsterCard) TrySummon(tile);
+                else if (card.IsTrapCard) 
+                { 
+                    if (_highlightedTiles.Contains(tile))
+                    {
+                        SetTrap(card, tile, Team.Player);
+                        _handManager.PlayCard(_handManager.SelectedIndex);
+                    }
+                }
                 else if (card.IsSpellCard) { if (TryCastSpell(card, tile, Team.Player)) _handManager.PlayCard(_handManager.SelectedIndex); }
-                else if (card.IsTrapCard) { /* State-based placement */ }
+                
+                if (CurrentState != InteractionState.SelectingSwapTarget)
+                {
+                    DeselectMonster();
+                    ClearHighlights();
+                    CurrentState = InteractionState.None;
+                }
                 return;
             }
 
@@ -477,7 +493,9 @@ public TurnState CurrentTurn { get; private set; } = TurnState.PlayerTurn;
         private void TrySummon(BattleTile tile)
         {
             // Removed _summonsUsedThisTurn >= 1 to allow multiple summons per turn
-            if (tile.IsOccupied || tile.coordinates.y >= 2) return;
+            if (!tile.IsWalkable) { GameLogManager.Instance?.Log("Cannot summon: Tile occupied or blocked."); return; }
+            if (tile.coordinates.y >= 2) { GameLogManager.Instance?.Log("Cannot summon: Outside summon zone."); return; }
+            
             var card = _handManager.SelectedCard; if (card == null) return;
             _handManager.PlayCard(_handManager.SelectedIndex);
             SpawnMonster(card, tile, Team.Player);
@@ -487,7 +505,7 @@ public TurnState CurrentTurn { get; private set; } = TurnState.PlayerTurn;
 
         public Monster SpawnMonster(CardData card, BattleTile tile, Team team)
         {
-            if (card == null || tile == null || tile.IsOccupied) return null;
+            if (card == null || tile == null || !tile.IsWalkable) return null;
             var go = new GameObject(card.cardName);
             go.transform.position = tile.transform.position + Vector3.up * 0.1f;
             go.transform.SetParent(transform);
@@ -505,6 +523,7 @@ public TurnState CurrentTurn { get; private set; } = TurnState.PlayerTurn;
             DeselectMonster(); SelectedMonster = monster; CurrentState = InteractionState.Selected;
             GameLogManager.Instance?.Log($"Selected {monster.DisplayName} at {monster.CurrentTile.coordinates}.");
             FindAnyObjectByType<ActionMenu>()?.Show(monster);
+            _handManager?.ShowInfoForMonster(monster);
         }
 
         public void DeselectMonster()
@@ -535,6 +554,7 @@ public TurnState CurrentTurn { get; private set; } = TurnState.PlayerTurn;
         public void ToggleAutoPlay()
         {
             IsAutoPlay = !IsAutoPlay;
+            if (_aiManager == null) _aiManager = FindAnyObjectByType<AIManager>();
             if (IsAutoPlay && CurrentTurn == TurnState.PlayerTurn) _aiManager?.StartTurn(Team.Player);
         }
 
@@ -583,13 +603,13 @@ public TurnState CurrentTurn { get; private set; } = TurnState.PlayerTurn;
         private void HighlightValidTrapTiles()
         {
             ClearHighlights();
-            // Traps can be placed on any empty tile that doesn't already have a trap
+            // Traps can be placed on any empty tile that doesn't already have a trap and isn't blocked
             for (int x = 0; x < GridWidth; x++)
             {
                 for (int z = 0; z < GridHeight; z++)
                 {
                     var t = _tiles[x, z];
-                    if (t != null && !t.IsOccupied && t.SetTrap == null)
+                    if (t != null && t.IsWalkable && t.SetTrap == null)
                     {
                         t.ShowPlacement();
                         _highlightedTiles.Add(t);
@@ -598,12 +618,12 @@ public TurnState CurrentTurn { get; private set; } = TurnState.PlayerTurn;
             }
         }
 
-        private void HighlightValidSummonTiles() { ClearHighlights(); for (int x = 0; x < GridWidth; x++) for (int z = 0; z < 2; z++) { var t = _tiles[x, z]; if (t != null && !t.IsOccupied) { t.ShowPlacement(); _highlightedTiles.Add(t); } } }
+        private void HighlightValidSummonTiles() { ClearHighlights(); for (int x = 0; x < GridWidth; x++) for (int z = 0; z < 2; z++) { var t = _tiles[x, z]; if (t != null && t.IsWalkable) { t.ShowPlacement(); _highlightedTiles.Add(t); } } }
 private void ClearHighlights() { foreach (var t in _highlightedTiles) if (t != null) { t.HidePlacement(); t.HideMoveRange(); } _highlightedTiles.Clear(); }
         private bool IsTowerAt(BattleTile tile, out Tower tower) { tower = null; if (tile == null) return false; if (PlayerTower?.GridX == tile.coordinates.x && PlayerTower?.GridZ == tile.coordinates.y) { tower = PlayerTower; return true; } if (OpponentTower?.GridX == tile.coordinates.x && OpponentTower?.GridZ == tile.coordinates.y) { tower = OpponentTower; return true; } return false; }
         public List<BattleTile> GetMovementRange(Monster monster) { var r = new List<BattleTile>(); if (monster?.CurrentTile == null) return r; int max = monster.MoveRange; var visited = new Dictionary<BattleTile, int>(); var q = new Queue<BattleTile>(); var s = monster.CurrentTile; visited[s] = 0; q.Enqueue(s); (int, int)[] dirs = { (0, 1), (0, -1), (1, 0), (-1, 0), (1, 1), (1, -1), (-1, 1), (-1, -1) }; while (q.Count > 0) { var c = q.Dequeue(); int cost = visited[c]; foreach (var (dx, dz) in dirs) { int nx = c.coordinates.x + dx, nz = c.coordinates.y + dz; var n = GetTile(nx, nz); if (n == null || !n.IsWalkable) continue; int nc = cost + 1; if (nc > max) continue; if (!visited.ContainsKey(n) || nc < visited[n]) { visited[n] = nc; q.Enqueue(n); if (n != s) r.Add(n); } } } return r; }
         public List<Monster> GetAllMonsters() { var r = new List<Monster>(); for (int x = 0; x < GridWidth; x++) for (int z = 0; z < GridHeight; z++) if (_tiles[x, z]?.OccupyingMonster != null && _tiles[x, z].OccupyingMonster.IsAlive) r.Add(_tiles[x, z].OccupyingMonster); return r; }
-        public Vector3 GridToWorld(int x, int z) => new((x - 9.5f) * TileSize, 0f, (z - 9.5f) * TileSize);
+        public Vector3 GridToWorld(int x, int z) => new((x - 9.5f) * TileSize, 1.49f, (z - 9.5f) * TileSize);
 public bool IsInBounds(int x, int z) => x >= 0 && x < GridWidth && z >= 0 && z < GridHeight;
         public BattleTile GetTile(int x, int z) => IsInBounds(x, z) ? _tiles[x, z] : null;
     }

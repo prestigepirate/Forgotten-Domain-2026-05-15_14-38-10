@@ -1,0 +1,28 @@
+{
+    "asset": "baa2215afe72142f185aa59de0397260",
+    "fileName": "019e3769-9f4a-7d98-af2f-88e35698f7e5.jpg",
+    "prompt": "High-detail concept art for a grand monument statue of a cybernetic humanoid demon female. Imposing stance, demonic wings, biomechanical tech-implants, glowing cyan energy lines. Dark charcoal grey and aged metallic bronze textures. Epic fantasy art style matching Magic: The Gathering. Intricate details, cinematic lighting. Full body view from the front.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

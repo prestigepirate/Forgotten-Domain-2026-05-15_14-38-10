@@ -1,0 +1,38 @@
+{
+    "asset": "7b9c21a0a09ca4ef3907f9f32b5dd4b8",
+    "fileName": "019e3744-ea8b-7042-97ef-0e39ed4e20be.png",
+    "prompt": "A high-detail concept of a horizontal ruined sci-fi wall, architectural debris, alien hieroglyphics etched into the surface, glowing holographic purple energy leaking from cracks, quantum domain aesthetic, sleek metallic titanium, brutalist design. Top-down perspective. Isolated on black background.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "3a71148e2b01848e2ab5dd05e5d84f2b",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}
